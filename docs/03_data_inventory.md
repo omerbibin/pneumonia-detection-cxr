@@ -41,7 +41,7 @@ chest_xray/
     └── PNEUMONIA/     (390 images)
 ```
 
-> The exact counts produced by Cell 7 of `Week02_Data_Acquisition.ipynb` are saved to `reports/data_inventory.csv` and supersede the approximate numbers above.
+> The exact counts produced in the data acquisition section of `masternotebook.ipynb` are saved to `reports/data_inventory.csv` and supersede the approximate numbers above.
 
 ### Filename Convention
 
@@ -106,8 +106,8 @@ These are explicit, advance-declared limitations that we will revisit in the Wee
 
 To recreate this dataset on a fresh Colab runtime:
 
-1. Run `Week02_Data_Acquisition.ipynb`, Cells 1–8 in order.
-2. Provide your own Kaggle API credentials in Cell 3.
+1. Run the data acquisition section of `masternotebook.ipynb`.
+2. Provide your own Kaggle API credentials in the credentials configuration step.
 3. Verify that the resulting `data_inventory.csv` matches the counts checked into `reports/data_inventory.csv`.
 
 If the SHA-256 hash of the downloaded zip differs from a future re-download, document the discrepancy — Kaggle datasets are occasionally updated by their maintainers.
